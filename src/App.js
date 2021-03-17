@@ -3,7 +3,7 @@ import Intro from './Intro'
 import IntroPafs from './IntroPafs'
 import BSnavbar from './BSnavbar'
 import Karousel from './Karousel'
-
+import FooterPage from './Footer'
 function App() {
 
   return (
@@ -13,6 +13,7 @@ function App() {
         <IntroPafs />
         <Karousel />
         <div style={{height:"20cm"}}></div>
+        <FooterPage  />
 
     </div>
   );
