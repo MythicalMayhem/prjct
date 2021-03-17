@@ -4,6 +4,7 @@ import IntroPafs from './IntroPafs'
 import BSnavbar from './BSnavbar'
 import Karousel from './Karousel'
 import FooterPage from './Footer'
+import Form1 from './Form1'
 function App() {
 
   return (
@@ -12,9 +13,8 @@ function App() {
         <Intro />
         <IntroPafs />
         <Karousel />
-        <div style={{height:"20cm"}}></div>
-        <FooterPage  />
-
+        <Form1 />
+        <FooterPage />
     </div>
   );
 }
