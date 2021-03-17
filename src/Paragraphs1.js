@@ -4,12 +4,12 @@ const Paragraphs1 = () => {
     const block ={
         display:"block", height:'6.5cm', width:'8.5cm',
         borderRadius:'0.1cm',fontSize:"17.5px",fontWeight:"500",marginLeft:"1cm",
-        backgroundColor:'#5ac8d8',marginBottom:"1.35cm",border:" 3px solid gray",
-        boxShadow: "0px 4px 6px 3px gray"
+        backgroundColor:'#00b4d8',marginBottom:"1.35cm",border:" 3px solid yellow",
+
     }
     const flex = {
         display:'flex',flexDirection:"row",
-        justifyContent:'center'
+        justifyContent:'center',dataAos:"fade-up"
     }
     return (
         <div style={flex}>

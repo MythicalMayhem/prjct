@@ -3,8 +3,9 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 const BSnavbar = () => {
-    const style = {backgroundColor:"#e6e6e6",border:'1px solid #cccccc ',borderRadius:" 0.1cm"}
+    const style = {backgroundColor:"yellow",border:'0px solid blue ',borderRadius:" 0.1cm",color:"#f5cc00"}
     return (
         <>
             <Navbar style={style} bg="" variant="" expand="lg" fixed="top">
@@ -24,6 +25,7 @@ const BSnavbar = () => {
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
+            
         </>
     )
 }

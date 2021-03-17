@@ -4,7 +4,7 @@ const intro = () => {
     const titlestyle = {textAlign: 'center',
                         textTransform:'uppercase',color:"#2552ac",wordSpacing:"50px",
                         marginBottom:"1.35cm",letterSpacing:"15px",fontSize:"100px",
-                        marginTop:"5cm",fontFamily:"Georgia"}
+                        marginTop:"4cm",fontFamily:"Georgia"}
     const txtstyle = {textIndent: "50px",textAlign: 'center',letterSpacing:'3px',marginBottom:"1cm",fontSize:"22px",}
     const flex = {display:'flex',flexDirection:'column'}
     const block = {display:"block",height:"20cm",textAlign:"center"}

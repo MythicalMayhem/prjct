@@ -5,18 +5,14 @@ import BSnavbar from './BSnavbar'
 import Karousel from './Karousel'
 
 function App() {
+
   return (
-    <div className="App" style={{backgroundImage: "linear-gradient(to bottom, #f1f4f6 72%, #465d6d 100%)",color:"#5a778c",display:"flex",justifyContent:"center",flexDirection:"column"}}>
-        
+    <div className="App" style={{background: "linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%)",color:"#023e8a",display:"flex",justifyContent:"center",flexDirection:"column"}}>
         <BSnavbar />
         <Intro />
         <IntroPafs />
-        <center>
-          <Karousel />
-        </center>
-        
-        <div style={{height:"50cm"}}></div>
-
+        <Karousel />
+        <div style={{height:"20cm"}}></div>
 
     </div>
   );
