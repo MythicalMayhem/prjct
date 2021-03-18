@@ -8,12 +8,12 @@ import Randompg from './Randompg'
 const Karousel = () => {
   const style = {height:"11cm",width:"11cm"}
   const div = { display:"flex",felxDirection:"row",
-                alignItems:"center",justifyContent:"center",marginTop:"2cm"}
+                alignItems:"center",justifyContent:"center",marginTop:"4cm"}
   return (
            <div style={div}>
              <div>
-             <Carousel style={{width:"20cm",height:"11.1cm"}} >
-              <Carousel.Item style={{border:"3px solid yellow"}}>
+             <Carousel style={{width:"20cm",height:"11.3cm"}} >
+              <Carousel.Item style={{border:"3px solid #1a1a1a"}}>
                 <img
                   className="d-block w-100"
                   src={logo1}
@@ -27,7 +27,7 @@ const Karousel = () => {
               </Carousel.Item>
 
 
-                <Carousel.Item style={{border:"3px solid yellow"}}>
+                <Carousel.Item style={{border:"3px solid #1a1a1a"}}>
                 <img
                   className="d-block w-100"
                   src={logo2}
@@ -40,7 +40,7 @@ const Karousel = () => {
                 </Carousel.Caption>
               </Carousel.Item>
               
-              <Carousel.Item style={{border:"3px solid yellow"}}>
+              <Carousel.Item style={{border:"3px solid #1a1a1a"}}>
                 <img
                   className="d-block w-100"
                   src={logo3}

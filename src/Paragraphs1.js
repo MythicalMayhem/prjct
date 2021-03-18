@@ -3,9 +3,8 @@ import React from 'react'
 const Paragraphs1 = () => {
     const block ={
         display:"block", height:'6.5cm', width:'8.5cm',
-        borderRadius:'0.1cm',fontSize:"17.5px",fontWeight:"500",marginLeft:"1cm",
-        backgroundColor:'#00b4d8',marginBottom:"1.35cm",border:" 3px solid yellow",
-
+        borderRadius:'0.1cm',fontSize:"17.5px",fontWeight:"500",marginLeft:"1cm",marginBottom:"1.35cm",
+        backgroundColor:'#1a1a1a', boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
     }
     const flex = {
         display:'flex',flexDirection:"row",

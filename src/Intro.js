@@ -2,7 +2,7 @@ import React from 'react'
 
 const intro = () => {
     const titlestyle = {textAlign: 'center',
-                        textTransform:'uppercase',color:"#2552ac",wordSpacing:"50px",
+                        textTransform:'uppercase',color:"#00adb5",wordSpacing:"50px",
                         marginBottom:"1.35cm",letterSpacing:"15px",fontSize:"100px",
                         marginTop:"4cm",fontFamily:"Georgia"}
     const txtstyle = {textIndent: "50px",textAlign: 'center',letterSpacing:'3px',marginBottom:"1cm",fontSize:"22px",}

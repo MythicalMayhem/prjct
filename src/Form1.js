@@ -2,8 +2,8 @@ import React from 'react'
 import {Form,Button} from 'react-bootstrap'
 const Form1 = () => {
     return (
-        <div style={{display:"flex",justifyContent:"center" ,alignContent:"space-between", marginTop:"3cm", marginBottom:"3cm"}}>
-        <div style={{display:"block",height:"16.5cm",width:"12cm", borderRadius:"1cm",border:"5px solid black",marginLeft:"1.5cm",}}>
+        <div style={{display:"flex",justifyContent:"center" ,alignContent:"space-between", marginTop:"5cm", marginBottom:"3cm",}}>
+        <div style={{display:"block",height:"16.5cm",width:"12cm",marginLeft:"1.5cm",backgroundColor:'#1a1a1a', boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
             <Form style={{margin :"1cm"}} >
             <h1 style={{marginBottom:"1cm"}}>Sign up</h1><br />
             <Form.Group controlId="formBasicEmail">
@@ -37,7 +37,7 @@ const Form1 = () => {
               </Button>
             </Form> 
         </div>
-        <div style={{display:"block",height:"16.5cm",width:"12cm", borderRadius:"1cm",border:"5px solid black",marginLeft:"1.5cm",}}>
+        <div style={{display:"block",height:"16.5cm",width:"12cm",marginLeft:"1.5cm",backgroundColor:'#1a1a1a', boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
             <Form style={{margin :"1cm"}}>
             <h1 style={{marginBottom:"1cm"}}>Sign in</h1><br />
             <div style={{alignItems:"center", justifyContent:"center"}}>
